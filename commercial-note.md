@@ -14,7 +14,7 @@ Designed for academic university labs, graduate researchers, and independent ver
 Designed for commercial tape-outs, multi-project wafer (MPW) runs, and foundry integration (e.g., GAA/Complementary FET nodes).
 * **Upfront Fee:** $500,000 USD
 * **Annual Volume Fee:** $0.10 USD per chip shipped, calculated seamlessly based on the foundry's annual production estimations (no complex precision audits required).
-* **Non-Payment & Breach Clause:** Failure to submit annual production estimations or clear the corresponding volume fee within 30 days of the invoice date results in the **immediate revocation of the commercial license**. All manufacturing rights are terminated, engineering files must be purged, and continued production will be treated as direct IP infringement.
+* **Non-Payment & Breach Clause:** Failure to submit annual production estimations or clear the corresponding volume fee within 30 days of the invoice date results in the **immediate revocation of the commercial license**. All manufacturing rights are terminated, engineering files must be purged, and continued production will be treated as direct IP infringement. Previously Manifactured Products will have no Effects
 * **Includes:** Complete fabrication-ready GDSII mask layouts, absolute geometric node definitions, and full architectural access.
 * **further details:** Included in the EULA
 
