@@ -1,27 +1,46 @@
 ===============================================================================
-CH-BT: COAXIAL MWCNT/h-BN CORE-SHELL NANOWIRE INTERCONNECT MODEL SPECIFICATION
+CH-BT: COAXIAL ISOMORPHIC CORE-SHELL NANOWIRE INTERCONNECT ARCHITECTURE
 ===============================================================================
 
-1. THE SUB-2nm PHYSICAL BOTTLENECK
-As conventional metallic interconnects (Copper/Cobalt/Ruthenium) scale down toward 
-sub-2nm nodes, they hit a catastrophic thermal wall. Because the physical wire 
-dimension is drastically smaller than Copper's intrinsic Mean Free Path (MFP ≈ 40nm), 
-electrons suffer severe grain-boundary and surface roughness scattering. This elevates 
-resistivity exponentially, causing devastating localized Joule heating.
+1. FIELD OF THE INVENTION AND TARGET BOTTLENECK
+This disclosure details a physical layout template for high-leverage Backend-of-Line 
+(BEOL) logic nodes and interconnect structures at sub-2nm scales. Traditional 
+monatomic metals (e.g., Copper, Cobalt, Ruthenium) fail catastrophically at 
+sub-2nm bounds because the physical cross-sectional boundaries drop significantly 
+below the material's bulk electron Mean Free Path (MFP), triggering severe 
+boundary and impurity scattering. The resulting resistivity spike causes 
+exponential, destructive localized Joule heating. 
 
-2. CH-BT HETEROSTRUCTURE RESOLUTION
-This repository models a nanoscale physical layout consisting of:
-  * CONDUCTION CORE: An 8.4nm wide Multi-Walled Carbon Nanotube (MWCNT). CNTs possess 
-    an extraordinarily large intrinsic MFP (extending into the micrometer scale), 
-    allowing electrons to experience true ballistic transport without lattice collisions.
-  * INSULATING SHELL: A 4.8nm thick Hexagonal Boron Nitride (h-BN) jacket wrap. h-BN 
-    serves as an atomically smooth, isomorphic, wide-bandgap dielectric. This shell 
-    eliminates dangling bonds, locks the wavefunctions within the core, and prevents 
-    electron leakage while preserving the pristine atomic structure of the inner CNT.
+2. PATENT CLAIM EXPANSION: BROAD MATERIAL CLASSES
+To solve this boundary limit, this architecture defines a multi-layered, 
+coaxial heterostructure consisting of a high-MFP low-dimensional core enveloped 
+by an isomorphic insulating shell layer. The structural claims extend across the 
+following broad material classification definitions to ensure full patent range 
+protection:
 
-3. TRANSPORT MATRIX
-By engineering the channel layout such that the physical transport segment length (L) 
-is far below the effective nanotube MFP (L << MFP_cnt), the system completely bypasses 
-the classical Ohm's law regime. Conductance follows the quantum Landauer-Büttiker expression, 
-effectively suppressing Joule heating across ultra-scaled logic nodes.
+  A. THE CONDUCTION CORE (Low-Dimensional Allotropic Conductors)
+     * Primary Embodiment: An 8.4nm Multi-Walled Carbon Nanotube (MWCNT).
+     * Extended Legal Coverage: Any low-dimensional, allotropic carbon matrix, 
+       including single-walled carbon nanotubes (SWCNTs), multi-walled carbon 
+       nanotubes (MWCNTs) ranging from 2nm to 15nm in outer diameter, linear 
+       carbon allotropes (carbyne), and rolled multi-layer graphene nanoribbons (GNRs) 
+       exhibiting 1D or quasi-1D quantum confinement.
+
+  B. THE INSULATING PASSIVATION SHELL (Hexagonal Wide-Bandgap Dielectrics)
+     * Primary Embodiment: A 4.8nm Hexagonal Boron Nitride (h-BN) jacket layer.
+     * Extended Legal Coverage: Any structural group-III nitride matrix or 
+       isomorphous 2D layered hexagonal crystal system with a wide electronic bandgap 
+       (Eg > 3.0 eV), including hexagonal boron nitride (h-BN), boron-carbon-nitride 
+       allotropes (B_x C_y N_z), and related high-k/low-k isostructural insulating 
+       van der Waals heterostructures layered radially around a central conduction core.
+
+3. PHYSICAL CHANNEL REGIME AND MECHANICS
+The radial engineering configuration locks the electronic wavefunctions within 
+the core channel, eliminating chemical dangling bonds and pinning the surface states. 
+By selecting core-shell dimensions where the transport segment path (L) is engineered 
+to be significantly shorter than the effective operational Mean Free Path of the 
+allotropic core conductor (L << λ_eff), the structural node forces a Landauer-Büttiker 
+quantum transport state. Conduction is governed strictly by the number of open 
+transverse quantum modes (M), preventing acoustic and optical phonon-electron 
+collisions, thereby suppressing localized Joule heating across all sub-2nm nodes.
 ===============================================================================
