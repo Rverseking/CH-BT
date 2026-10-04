@@ -1,0 +1,27 @@
+===============================================================================
+CH-BT: COAXIAL MWCNT/h-BN CORE-SHELL NANOWIRE INTERCONNECT MODEL SPECIFICATION
+===============================================================================
+
+1. THE SUB-2nm PHYSICAL BOTTLENECK
+As conventional metallic interconnects (Copper/Cobalt/Ruthenium) scale down toward 
+sub-2nm nodes, they hit a catastrophic thermal wall. Because the physical wire 
+dimension is drastically smaller than Copper's intrinsic Mean Free Path (MFP ≈ 40nm), 
+electrons suffer severe grain-boundary and surface roughness scattering. This elevates 
+resistivity exponentially, causing devastating localized Joule heating.
+
+2. CH-BT HETEROSTRUCTURE RESOLUTION
+This repository models a nanoscale physical layout consisting of:
+  * CONDUCTION CORE: An 8.4nm wide Multi-Walled Carbon Nanotube (MWCNT). CNTs possess 
+    an extraordinarily large intrinsic MFP (extending into the micrometer scale), 
+    allowing electrons to experience true ballistic transport without lattice collisions.
+  * INSULATING SHELL: A 4.8nm thick Hexagonal Boron Nitride (h-BN) jacket wrap. h-BN 
+    serves as an atomically smooth, isomorphic, wide-bandgap dielectric. This shell 
+    eliminates dangling bonds, locks the wavefunctions within the core, and prevents 
+    electron leakage while preserving the pristine atomic structure of the inner CNT.
+
+3. TRANSPORT MATRIX
+By engineering the channel layout such that the physical transport segment length (L) 
+is far below the effective nanotube MFP (L << MFP_cnt), the system completely bypasses 
+the classical Ohm's law regime. Conductance follows the quantum Landauer-Büttiker expression, 
+effectively suppressing Joule heating across ultra-scaled logic nodes.
+===============================================================================
