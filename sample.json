@@ -1,0 +1,22 @@
+{
+  "node_specification": {
+    "technology_node": "Sub-2nm Backend-of-Line (BEOL) Interconnect Replacement",
+    "architecture": "Coaxial Core-Shell Nanowire Heterostructure",
+    "core_material": "MWCNT (Multi-Walled Carbon Nanotube)",
+    "shell_material": "h-BN (Hexagonal Boron Nitride)",
+    "core_diameter_nm": 8.4,
+    "shell_thickness_nm": 4.8,
+    "total_nanowire_diameter_nm": 18.0
+  },
+  "physical_constants": {
+    "elementary_charge_C": 1.602176634e-19,
+    "planck_constant_Js": 6.62607015e-34,
+    "von_klitzing_constant_ohm": 25812.80745
+  },
+  "transport_metrics": {
+    "target_regime": "Ballistic / Quasi-Ballistic Conduction",
+    "copper_mfp_baseline_nm": 40.0,
+    "carbon_nanotube_mfp_min_nm": 1000.0,
+    "scattering_mechanism_mitigated": "Surface Boundary & Impurity Electron Scattering"
+  }
+}
