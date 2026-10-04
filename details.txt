@@ -11,12 +11,11 @@ below the material's bulk electron Mean Free Path (MFP), triggering severe
 boundary and impurity scattering. The resulting resistivity spike causes 
 exponential, destructive localized Joule heating. 
 
-2. PATENT CLAIM EXPANSION: BROAD MATERIAL CLASSES
+2. MATERIAL EXPANSION: BROAD MATERIAL CLASSES
 To solve this boundary limit, this architecture defines a multi-layered, 
 coaxial heterostructure consisting of a high-MFP low-dimensional core enveloped 
 by an isomorphic insulating shell layer. The structural claims extend across the 
-following broad material classification definitions to ensure full patent range 
-protection:
+following broad material classification definition:
 
   A. THE CONDUCTION CORE (Low-Dimensional Allotropic Conductors)
      * Primary Embodiment: An 8.4nm Multi-Walled Carbon Nanotube (MWCNT).
